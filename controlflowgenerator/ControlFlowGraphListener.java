@@ -37,4 +37,9 @@ public class ControlFlowGraphListener extends Java8BaseListener {
 		mTokenStream = tokenStream;
 		mStringBuilder = builder;
 	}
+
+
+	@Override public void enterBlockStatement(Java8Parser.BlockStatementContext ctx) {
+		//
+	}
 }
